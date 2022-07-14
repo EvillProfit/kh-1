@@ -1,0 +1,474 @@
+@media only screen and (max-width: 1400px) {
+  .girl-bg {
+    /*background: url(../img/main_bg222.jpg) no-repeat 50% 0%;*/
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .s2-sale__inner {
+    /*width: 85px;*/
+  }
+
+  .not_valid_message, .not_valid_message2 {
+    font-size: 12px;
+  }
+
+  .s2-sale__text {
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .girl-bg {
+    /*background: url(../img/mob/girl-bg-mob.jpg) no-repeat top;*/
+    /*-webkit-background-size: cover;*/
+    /*background-size: cover;*/
+    position: fixed;
+  }
+
+  .only-mobile {
+    display: block;
+  }
+
+  .only-desctop {
+    display: none;
+  }
+
+  /*~~~~~~~~~~~~~~~ section 1 ~~~~~~~~~~~~~~~*/
+  .section_1 .header {
+    display: block;
+  }
+
+  .section_1 .logo {
+    display: block;
+    width: 100%;
+  }
+
+  .section_1 .logo__inner {
+    text-align: center;
+    padding: 5px 0;
+  }
+
+  .section_1 .logo__text {
+    font-size: 40px;
+  }
+
+  .section_1 .descr {
+    display: none;
+  }
+
+  /*~~~~~~~~~~~~~~~ END section 1 ~~~~~~~~~~~~~~~*/
+  /*~~~~~~~~~~~~~~~ section 2 ~~~~~~~~~~~~~~~*/
+  .section_2 {
+    padding: 30px 0;
+    /*background: url(../img/mob/girl-bg-mob.jpg) no-repeat 50% 50%;*/
+    /*background-attachment: fixed;*/
+    /*background-size: cover;*/
+  }
+
+  .section_2 .title__text {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .section_2 .list {
+    text-align: center;
+  }
+
+  .section_2 .list__item {
+    display: inline-block;
+    font-size: 28px;
+    line-height: 39px;
+  }
+
+  .section_2 .prod {
+    margin-top: 60px;
+    text-align: center;
+  }
+
+  .section_2 .timer {
+    display: none;
+  }
+
+  .section_2 .prod__img {
+    max-width: 100%;
+    left: -9px;
+  }
+
+  .section_2 .s2-sale {
+    top: 50px;
+    right: 0;
+  }
+
+  .section_2 .s2-sale:after {
+    height: 105px;
+    width: 105px;
+  }
+
+  .section_2 .s2-sale:before {
+    height: 90px;
+    width: 90px;
+  }
+
+  .section_2 .s2-sale__prcnt {
+    font-size: 32px;
+    line-height: 1;
+  }
+
+  .section_2 .price {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .section_2 .price__inner {
+    padding-left: 0;
+  }
+
+  .section_2 .price__old {
+    font-size: 24px;
+  }
+
+  /*~~~~~~~~~~~~~~~ /section 2 ~~~~~~~~~~~~~~~*/
+  /*~~~~~~~~~~~~~~~ section 3 ~~~~~~~~~~~~~~~*/
+  .section_3 {
+    padding: 30px 0;
+  }
+
+  .section_3 .this__title {
+    padding: 0;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .section_3 .this__row {
+    display: block;
+    text-align: center;
+  }
+
+  .section_3 .this__descr {
+    padding-top: 0;
+  }
+
+  .section_3 .this__descr .text {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .section_3 .item {
+    display: inline-block;
+    width: 110px;
+  }
+
+  .section_3 .item-text {
+    font-size: 14px;
+    line-height: 1.2;
+    max-width: 105px;
+  }
+
+  .section_3 .item__round:after {
+    height: 140px;
+    width: 140px;
+  }
+
+  .section_3 .item:nth-child(even) {
+    margin-left: 40px;
+  }
+
+  .section_3 .item:first-child {
+    /*margin-bottom: 80px;*/
+  }
+
+  .section_3 .item:nth-child(2) {
+    /*margin-bottom: 80px;*/
+  }
+
+  .section_3 .item__round:before {
+    margin: 0 0 10px -20px;
+  }
+
+  /*~~~~~~~~~~~~~~~ /section 3 ~~~~~~~~~~~~~~~*/
+  /*~~~~~~~~~~~~~~~ section 4 ~~~~~~~~~~~~~~~*/
+  .section_4 {
+    padding: 30px 0;
+  }
+
+  .section_4 .s-title {
+    position: relative;
+  }
+
+  .section_4 .s-title:before {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 87px;
+    width: 88px;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    left: 0;
+    background: url("srez.png") no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+  .section_4 .s-title__inner {
+    padding-left: 95px;
+  }
+
+  .section_4 .s-title__text {
+    font-size: 22px;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .section_4 .prod__row {
+    display: block;
+    margin-top: 0;
+  }
+
+  .section_4 .prod__row .prod__pic {
+    display: none;
+  }
+
+  .section_4 .prod__row .prod__descr {
+    display: block;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+
+  /*~~~~~~~~~~~~~~~ /section 4 ~~~~~~~~~~~~~~~*/
+  /*~~~~~~~~~~~~~~~ section 5 ~~~~~~~~~~~~~~~*/
+  .section_5 {
+    padding: 30px 0;
+    /*background-color: #101010;*/
+    /*background-color: #333;*/
+  }
+
+  .section_5 .s-title__text {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  .section_5 .rules__row {
+    display: block;
+  }
+
+  .section_5 .rules__item {
+    display: block;
+    background-color: transparent;
+    margin: 0 0 25px;
+  }
+
+  .section_5 .rules__item:after {
+    display: none;
+  }
+
+  .section_5 .rules__item-inner {
+    padding: 0;
+  }
+
+  .section_5 .rules__item-title {
+    position: relative;
+  }
+
+  .section_5 .rules__item-title:after {
+    position: absolute;
+    content: counter(num);
+    counter-increment: num;
+    display: block;
+    width: auto;
+    height: 45px;
+    font-size: 42px;
+    line-height: 1;
+    right: auto;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    background-color: transparent;
+    color: #f80000;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  .section_5 .rules__item-title .text {
+    font-size: 22px;
+    line-height: 1.1;
+    padding-right: 0;
+    padding-left: 30px;
+    height: 50px;
+  }
+
+  .section_5 .rules__item-descr {
+    margin-top: 10px;
+  }
+
+  /*~~~~~~~~~~~~~~~ /section 5 ~~~~~~~~~~~~~~~*/
+  /*~~~~~~~~~~~~~~~ section 6 ~~~~~~~~~~~~~~~*/
+  .section_6 {
+    padding: 30px 0;
+  }
+
+  .section_6 .s-title__text {
+    font-size: 24px;
+    line-height: 1.1;
+  }
+
+  .section_6 .sec-row {
+    display: block;
+  }
+
+  .section_6 .sec-part {
+    display: block;
+    padding: 0;
+  }
+
+  .section_6 .left__text {
+    /*text-align: center;*/
+    font-size: 24px;
+    line-height: 1.1;
+    letter-spacing: 0;
+  }
+
+  .section_6 .prod {
+    margin-top: 20px;
+  }
+
+  .section_6 .prod__img {
+    display: none;
+  }
+
+  .section_6 .right {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .section_6 .right .text:first-child {
+    font-weight: 300;
+  }
+
+  .section_6 .right .text:last-child {
+    font-size: 20px;
+  }
+
+  .section_6 .right .text:last-child span {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  /*~~~~~~~~~~~~~~~ /section 6 ~~~~~~~~~~~~~~~*/
+  /*~~~~~~~~~~~~~~~ section 7 ~~~~~~~~~~~~~~~*/
+  .section_7 {
+    padding: 30px 0;
+    background-image: none;
+    /*background-color: #101010;*/
+    /*background-color: #333;*/
+  }
+
+  .section_7 .title {
+    font-size: 28px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .section_7 .title .color--dark {
+    color: #920000;
+  }
+
+  .section_7 .prod__img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    left: 0px!important;
+  }
+
+  .section_7 .price {
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .section_7 .price__inner {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .section_7 .sale {
+    top: 122px;
+    right: 35px;
+  }
+
+  .section_7 .sale:after {
+    height: 105px;
+    width: 105px;
+  }
+
+  .section_7 .sale:before {
+    height: 90px;
+    width: 90px;
+  }
+
+  .section_7 .sale .s2-sale__prcnt {
+    font-size: 32px;
+    line-height: 1;
+  }
+
+  .section_7 .form-box {
+    padding-left: 0;
+    margin-top: 30px;
+  }
+
+  .section_7 .form-box__inner {
+    padding: 15px;
+    margin-left: 0;
+  }
+
+  .section_7 .form-box__title {
+    display: none;
+  }
+
+  .section_7 .form-box .timer {
+    margin-bottom: 20px;
+  }
+
+  .section_7 .form-box .timer__title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .section_7 .form-box .timer__counter {
+    display: block;
+    width: 210px;
+    margin: 0 auto;
+  }
+
+  .section_7 .form-box .timer__counter .item {
+    display: inline-block;
+    height: 50px;
+    width: 70px;
+    line-height: 50px;
+    font-size: 30px;
+    background: url("timer-bg.png") no-repeat 50% 50%;
+    background-size: cover;
+    font-weight: 700;
+    padding-left: 10px;
+    letter-spacing: 16px;
+  }
+
+  /*~~~~~~~~~~~~~~~ /section 7 ~~~~~~~~~~~~~~~*/
+  .only-desctop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .only-mobile {
+    display: none;
+  }
+}
